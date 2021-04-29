@@ -28,7 +28,7 @@
 <meta property="og:description" content="安裝 要先安裝 Node.js、Git  安裝 hexo 1npm install -g hexo-cli 建立 hexo 專案 123$ hexo init &lt;folder&gt;$ cd &lt;folder&gt;$ npm install 可以去改配置  in _config.yml  輸入以下指令建立網頁並開啟伺服器 12hexo g  產生靜態檔案  (hexo generate">
 <meta property="og:locale" content="zh_TW">
 <meta property="article:published_time" content="2021-04-28T04:35:45.000Z">
-<meta property="article:modified_time" content="2021-04-29T13:04:20.316Z">
+<meta property="article:modified_time" content="2021-04-29T13:27:57.402Z">
 <meta property="article:author" content="Nicole Chia">
 <meta property="article:tag" content="hexo">
 <meta name="twitter:card" content="summary">
@@ -108,7 +108,7 @@
       <div class="sidebar-panel-container">
         <!--noindex-->
         <div class="post-toc-wrap sidebar-panel">
-            <div class="post-toc animated"><ol class="nav"><li class="nav-item nav-level-3"><a class="nav-link" href="#%E5%AE%89%E8%A3%9D"><span class="nav-number">1.</span> <span class="nav-text">安裝</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E5%AE%89%E8%A3%9D%E4%B8%BB%E9%A1%8C"><span class="nav-number">2.</span> <span class="nav-text">安裝主題</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E5%AF%AB%E6%96%B0%E6%96%87%E7%AB%A0"><span class="nav-number">3.</span> <span class="nav-text">寫新文章</span></a></li></ol></li></ol></li><li class="nav-item nav-level-1"><a class="nav-link" href="#%E9%83%A8%E7%BD%B2"><span class="nav-number"></span> <span class="nav-text">部署</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#github-%E8%A8%AD%E5%AE%9A"><span class="nav-number">0.1.</span> <span class="nav-text">github 設定</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#hexo-%E8%A8%AD%E5%AE%9A%E4%B8%80%E9%8D%B5%E9%83%A8%E7%BD%B2"><span class="nav-number">0.2.</span> <span class="nav-text">hexo 設定一鍵部署</span></a></li></ol></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E5%85%B6%E4%BB%96"><span class="nav-number">1.</span> <span class="nav-text">其他</span></a></li></ol></div>
+            <div class="post-toc animated"><ol class="nav"><li class="nav-item nav-level-3"><a class="nav-link" href="#%E5%AE%89%E8%A3%9D"><span class="nav-number">1.</span> <span class="nav-text">安裝</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E5%AE%89%E8%A3%9D%E4%B8%BB%E9%A1%8C"><span class="nav-number">2.</span> <span class="nav-text">安裝主題</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E5%AF%AB%E6%96%B0%E6%96%87%E7%AB%A0"><span class="nav-number">3.</span> <span class="nav-text">寫新文章</span></a></li></ol></li></ol></li><li class="nav-item nav-level-1"><a class="nav-link" href="#%E9%83%A8%E7%BD%B2"><span class="nav-number"></span> <span class="nav-text">部署</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#github-%E8%A8%AD%E5%AE%9A"><span class="nav-number">0.1.</span> <span class="nav-text">github 設定</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#hexo-%E8%A8%AD%E5%AE%9A%E4%B8%80%E9%8D%B5%E9%83%A8%E7%BD%B2"><span class="nav-number">0.2.</span> <span class="nav-text">hexo 設定一鍵部署</span></a></li></ol></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E8%A8%AD%E5%AE%9A-branch-%E9%87%8D%E8%A6%81"><span class="nav-number">1.</span> <span class="nav-text">設定 branch  重要!!!</span></a></li></ol></div>
         </div>
         <!--/noindex-->
 
@@ -196,7 +196,7 @@
           <i class="far fa-calendar-check"></i>
         </span>
         <span class="post-meta-item-text">更新於</span>
-        <time title="修改時間：2021-04-29 21:04:20" itemprop="dateModified" datetime="2021-04-29T21:04:20+08:00">2021-04-29</time>
+        <time title="修改時間：2021-04-29 21:27:57" itemprop="dateModified" datetime="2021-04-29T21:27:57+08:00">2021-04-29</time>
       </span>
 
   
@@ -229,15 +229,13 @@
 <p>將  _config.yml 中的 theme 改成 next</p>
 <p>將主題的資料夾中的   _config.yml 裡面的 <strong>scheme</strong> 改成自己想要的</p>
 <p>(可詳主題的 github 的 readme)</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">hexo clean   清除快取</span><br><span class="line">hexo g  </span><br><span class="line">hexo s  </span><br></pre></td></tr></table></figure>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line">hexo clean   清除快取</span><br><span class="line">hexo g  </span><br><span class="line">hexo s  </span><br><span class="line"></span><br><span class="line"></span><br><span class="line">hexo d -g  生成靜態網頁並部署</span><br></pre></td></tr></table></figure>
 
 
 
 
 
 <h3 id="寫新文章"><a href="#寫新文章" class="headerlink" title="寫新文章"></a>寫新文章</h3><figure class="highlight c#"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">hexo <span class="keyword">new</span> [layout] &lt;title&gt;</span><br><span class="line"></span><br><span class="line">hexo <span class="keyword">new</span> <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure>
-
-
 
 <p>部屬到遠端 </p>
 <figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">hexo g</span><br><span class="line">hexo d     (hexo deploy)</span><br></pre></td></tr></table></figure>
@@ -260,22 +258,13 @@
 <li>安裝 <a target="_blank" rel="noopener" href="https://github.com/hexojs/hexo-deployer-git">hexo-deployer-git</a>.</li>
 <li>清空 <code>_config.yml</code> 的現有資料，並新增以下組態:</li>
 </ol>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">deploy:</span><br><span class="line">  type: git</span><br><span class="line">  repo: https:&#x2F;&#x2F;github.com&#x2F;&lt;username&gt;&#x2F;&lt;project&gt;</span><br><span class="line">  # example, https:&#x2F;&#x2F;github.com&#x2F;hexojs&#x2F;hexojs.github.io</span><br><span class="line">  branch: gh-pages</span><br></pre></td></tr></table></figure>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line">deploy:</span><br><span class="line">  type: git</span><br><span class="line">  repo: https:&#x2F;&#x2F;github.com&#x2F;&lt;username&gt;&#x2F;&lt;project&gt;</span><br><span class="line">  # example, https:&#x2F;&#x2F;github.com&#x2F;hexojs&#x2F;hexojs.github.io.git</span><br><span class="line">  branch: gh-pages</span><br><span class="line">  </span><br><span class="line">  </span><br><span class="line">url: https:&#x2F;&#x2F;rule789.github.io </span><br></pre></td></tr></table></figure>
 
 <ol start="3">
 <li>執行 <code>hexo clean &amp;&amp; hexo deploy</code></li>
 </ol>
-<p>完成!!!!</p>
-<h3 id="其他"><a href="#其他" class="headerlink" title="其他"></a>其他</h3><p>PS. <strong>若第一次使用 Git</strong>，則在執行 <code>hexo d</code> 時會報錯(出現 Auther identity unknown. Please tell me who you are. 錯誤訊息)，這時候就要輸入以下兩行資訊(雙引號內自行修改，輸入指令時雙引號要保留)：</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">git config --global user.email &quot;you@example.com&quot;</span><br><span class="line">git config --global user.name &quot;Your Name&quot;</span><br></pre></td></tr></table></figure>
-
-
-
-
-
-<p>參考資料</p>
-<p><a target="_blank" rel="noopener" href="https://home.gamer.com.tw/creationDetail.php?sn=4849277">https://home.gamer.com.tw/creationDetail.php?sn=4849277</a></p>
-<p><a target="_blank" rel="noopener" href="https://ed521.github.io/2019/07/hexo-install/">https://ed521.github.io/2019/07/hexo-install/</a></p>
+<h3 id="設定-branch-重要"><a href="#設定-branch-重要" class="headerlink" title="設定 branch  重要!!!"></a>設定 branch  重要!!!</h3><p>Settings -&gt; 左側 Pages  看 Source，設定分支，按下 Save，畫面才會顯示你設定的分支。</p>
+<p>參考資料：<br><a target="_blank" rel="noopener" href="https://home.gamer.com.tw/creationDetail.php?sn=4849277">https://home.gamer.com.tw/creationDetail.php?sn=4849277</a><br><a target="_blank" rel="noopener" href="https://hsiangfeng.github.io/hexo/20200924/2892089216/">https://hsiangfeng.github.io/hexo/20200924/2892089216/</a><br><a target="_blank" rel="noopener" href="https://ed521.github.io/2019/07/hexo-install/">https://ed521.github.io/2019/07/hexo-install/</a></p>
 
     </div>
 
